@@ -2,7 +2,11 @@ This document is an extension of [HKUST/FUEL](https://github.com/HKUST-Aerial-Ro
 
 # How to use
 
-Start the realsense, vins and mavros 
+clone it in your ros worksapce
+
+`catkin_ws/src`
+
+Start the realsense, vins and mavros, find the script in path `/fuel_exp/src/realflight_modules/px4ctrl/launch`
 
 `rspx4.sh`
 
@@ -19,6 +23,8 @@ start your RC and set channel 5 and 6 to down
 `roslaunch px4ctrl run_ctrl.launch`
 
 Start Monitor
+
+*NB: Only test on Ubuntu20.04.6 + ROS Noetic*
 
 # Reference Projects
 
